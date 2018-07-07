@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.zeroc.myapplication.com.example.before.MainActivity">
+
+        <EditText
+            android:id="@+id/shoujihao"
+            android:layout_width="253dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="16dp"
+            android:hint="输入手机号"
+            android:inputType="number"
+            android:maxLength="11"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.013"></EditText>
+
+        <Button
+            android:id="@+id/huoqu"
+            android:layout_width="115dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="264dp"
+            android:text=" 获取验证码      "
+            android:textSize="30px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.013" />
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:hint="输入验证码"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.125" />
+
+        <EditText
+            android:id="@+id/mima"
+            android:layout_width="347dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="16dp"
+            android:hint="输入密码，长度不小于6位"
+            android:inputType="numberPassword"
+            android:maxLength="16"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.229" />
+
+        <Button
+            android:id="@+id/wanchengzhuce"
+            android:layout_width="383dp"
+            android:layout_height="103dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="完成注册"
+            android:textSize="80px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.458" />
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="383dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="测试"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.775" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+

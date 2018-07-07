@@ -1,0 +1,267 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dongtaiid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="动态"
+            android:background="@color/colorHui"
+            android:layout_weight="1"
+            android:textColor="@color/Green"
+            android:textSize="70px" />
+
+        <TextView
+        android:id="@+id/jubenid"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="剧本"
+            android:layout_weight="1"
+        android:textSize="70px"
+       />
+
+    <TextView
+        android:id="@+id/yanyixiuid"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="演绎秀"
+        android:textSize="70px"
+        />
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:orientation="horizontal">
+
+            <com.zero.news.Circleview
+                android:id="@+id/imageid"
+                android:layout_width="101dp"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/touxiangxiao" />
+
+            <LinearLayout
+                android:layout_width="130sp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="@color/Blue"
+                    android:layout_marginLeft="15dp"
+                    android:text="零度"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:id="@+id/time_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/app_name99"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="12sp"
+        android:id="@+id/speak_id"
+        android:text="@string/app_name101"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/moving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <ListView
+        android:id="@+id/comment_list"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+         />
+
+
+    <LinearLayout
+        android:id="@+id/r_enroll"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="25sp">
+
+        <LinearLayout
+            android:id="@+id/comment_id"
+            android:background="@color/colorHui"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:text="@string/app_name100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <!--<EditText-->
+        <!--android:id="@+id/comment_id"-->
+        <!--android:layout_width="301dp"-->
+        <!--android:layout_height="38dp"-->
+        <!--android:background="@drawable/changfangxing"-->
+        <!--android:hint="评论"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:paddingRight="20dp"-->
+        <!--android:textColor="#008A00"-->
+        <!--android:maxLines="1"-->
+        <!--/>-->
+</LinearLayout>
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/record_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/Black"
+            android:src="@drawable/record_small" />
+
+    <ImageButton
+        android:id="@+id/liwuid"
+        android:layout_weight="1.5"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:src="@drawable/liwuxiao"
+ />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_comment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:fitsSystemWindows="true"
+        android:visibility="gone"
+        tools:ignore="ObsoleteLayoutParam">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/hide_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name96"
+            android:textSize="13sp"
+            android:textColor="@color/txtgrey"
+            android:drawableBottom="@drawable/hide_dowm"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_toRightOf="@id/hide_down"
+            android:layout_marginLeft="10dp"/>
+        <EditText
+            android:id="@+id/comment_content"
+            android:hint="@string/app_name97"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_toRightOf="@id/hide_down"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/comment_send"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_margin="5dp"
+            android:text="@string/app_name98"
+            android:textSize="13sp"
+            android:textColor="#000"
+            android:background="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

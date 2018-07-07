@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.zeroc.myapplication">
+
+    <!-- 语音录入权限相关 -->
+   // SDCard中创建与删除文件权限
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    //SDCard 写入语音权限
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    //震动
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    //传感器权限
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    //网络
+    <uses-permission android:name="android.permission.INTERNET" />
+    //录音
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    //显示系统窗口
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/yan"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme">
+        <activity
+            android:name="com.example.before.dengluActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.before.MainActivity" />
+        <activity
+            android:name=".shouyeActivity"
+            android:launchMode="singleTop" />
+        <activity android:name="com.example.before.ZCActivity" />
+        <activity android:name=".bianjiActivity" />
+        <activity android:name=".shezhiActivity" />
+        <activity android:name=".aboutActivity" />
+        <activity android:name=".huiyuanActivity" />
+        <activity android:name=".pinglunActivity" />
+        <activity android:name=".yanyiActivity" />
+        <activity android:name=".liwuActivity" />
+        <activity android:name=".QianbaoActivity" />
+        <activity android:name=".touxiangActivity" />
+        <activity android:name=".writeActivity" />
+        <activity
+            android:name="com.example.before.forgetActivity"
+            android:label="@string/title_activity_forget"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".collectActivity"
+            android:label="@string/title_activity_collect"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".collectScriptActivity" />
+        <activity android:name=".collectPlayActivity" />
+        <activity android:name=".classifyActivity" />
+        <activity android:name=".everyDayActivity" />
+    </application>
+
+</manifest>

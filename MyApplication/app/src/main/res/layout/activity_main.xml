@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeroc.myapplication.com.example.before.MainActivity">
+
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="384dp"
+            android:layout_height="107dp"
+
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Y   Y"
+            android:textSize="150px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.005" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="385dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="110dp"
+            android:text="演绎秀"
+            android:textSize="40px"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/zhuce"
+            android:layout_width="220dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="80dp"
+            android:text=" 注册"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.412"
+            tools:ignore="MissingConstraints"
+            android:layout_marginStart="80dp" />
+
+        <Button
+            android:id="@+id/denglubutton"
+            android:layout_width="221dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="168dp"
+            android:text=" 登录"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.437"
+            tools:ignore="MissingConstraints"
+            android:layout_marginStart="80dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="秀出你的声音"
+            android:textSize="40px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.781"
+            tools:ignore="MissingConstraints" />
+
+
+
+    </android.support.constraint.ConstraintLayout>

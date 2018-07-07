@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeroc.myapplication.bianjiActivity">
+
+
+    <TextView
+        android:layout_width="363dp"
+        android:layout_height="63dp"
+        android:gravity="center"
+        android:text="@string/app_name17"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/fanhuiid"
+        android:layout_width="72dp"
+        android:layout_height="62dp"
+        android:src="@drawable/fanhui"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/baocunid"
+        android:layout_width="82dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="280dp"
+        android:gravity="center"
+        android:textColor="@color/Blue"
+        android:text="@string/app_name18"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:layout_weight="0.10"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#9e9e9e"
+            />
+<LinearLayout
+    android:id="@+id/head_portrait"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:textColor="@color/Black"
+        android:layout_marginLeft="25dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:text="@string/app_name19"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:layout_marginRight="20dp"
+        android:id="@+id/touxiangiamgeid"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/touxiangxiao"/>
+
+</LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#9e9e9e"
+            />
+
+        <LinearLayout
+            android:id="@+id/cover_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/Black"
+                android:layout_marginLeft="25dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:text="@string/app_name20"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                />
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/dayu"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#9e9e9e"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="68dp">
+
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/nichengid"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:text="@string/app_name21"
+                android:textSize="25sp" />
+            <View
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+            </View>
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_weight="0.8"
+                android:layout_width="0sp"
+                android:text="@string/app_name69"
+                android:layout_height="50sp" />
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="0sp"
+                android:layout_height="50sp"
+                android:layout_weight="0.4"
+                android:src="@drawable/bixiao" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#9e9e9e"
+            />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="68dp">
+
+        <TextView
+            android:id="@+id/chushengid"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="@string/app_name22"
+            android:textColor="#000"
+            android:layout_marginLeft="25dp"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/birthdayid"
+            android:layout_weight="0.8"
+            android:layout_width="0sp"
+            android:layout_height="50sp" />
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#9e9e9e"
+            />
+
+        <LinearLayout
+            android:id="@+id/sex_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/Black"
+                android:layout_marginLeft="25dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:text="@string/app_name23"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                />
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/dayu"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#9e9e9e"
+            />
+
+        <LinearLayout
+            android:id="@+id/city_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/Black"
+                android:layout_marginLeft="25dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:text="@string/app_name24"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                />
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/dayu"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#9e9e9e"
+            />
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+

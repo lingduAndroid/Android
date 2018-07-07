@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorHui">
+
+        <TextView
+            android:layout_marginLeft="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:gravity="center"
+            android:text="@string/app_name40"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/yueid"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_height="match_parent"
+
+
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"
+        />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="5dp"/>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+
+
+     <Button
+         android:id="@+id/xianhuaid"
+         android:layout_width="80dp"
+         android:layout_height="110sp"
+         android:background="@color/white"
+         android:drawableTop="@drawable/xianhua"
+         android:text="@string/app_name41" />
+
+ </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/colorHui"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="5sp"
+            android:text="@string/app_name42"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/jianid"
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:text="@string/app_name44" />
+
+        <EditText
+            android:id="@+id/shuliangid"
+            android:layout_width="63dp"
+            android:inputType="number"
+            android:maxLength="4"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/jiaid"
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:text="@string/app_name45" />
+
+        <Button
+            android:id="@+id/songchuid"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50sp"
+            android:background="@color/Red"
+            android:text="@string/app_name43" />
+
+    </LinearLayout>
+
+    </LinearLayout>

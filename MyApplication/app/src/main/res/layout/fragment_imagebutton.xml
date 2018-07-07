@@ -1,0 +1,107 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/shipingid"
+        android:layout_width="73dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:src="@drawable/shiping"
+
+        />
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/haoyouid"
+        android:layout_width="73dp"
+        android:layout_height="61dp"
+        android:background="#ffffff"
+        android:src="@drawable/haoyou"
+        />
+
+
+
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/luyingid"
+        android:layout_width="72dp"
+        android:layout_height="61dp"
+
+        android:src="@drawable/luying"
+        />
+
+
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/fuwuid"
+        android:layout_width="73dp"
+        android:layout_height="61dp"
+
+        android:background="#ffffff"
+        android:src="@drawable/huiyuan"
+
+         />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/wodeid"
+
+        android:layout_width="73dp"
+        android:layout_height="61dp"
+
+        android:background="#ffffff"
+
+        android:src="@drawable/wode" />
+
+</LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name35"
+            android:layout_marginLeft="18sp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name36"
+            android:layout_marginLeft="25sp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name37"
+            android:layout_marginLeft="27sp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name38"
+            android:layout_marginLeft="35sp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name39"
+            android:layout_marginLeft="28sp"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+</LinearLayout>

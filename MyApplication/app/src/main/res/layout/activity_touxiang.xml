@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="30dp" >
+
+            <com.zero.news.Circleview
+                android:id="@+id/iv_personal_icon"
+                android:layout_width="350sp"
+                android:layout_height="350sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/touxiang" />
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="20sp"
+            android:id="@+id/btn_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="修改头像" />
+
+
+        <Button
+            android:layout_marginLeft="150sp"
+            android:id="@+id/wanchengid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完成" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/fragmentXianshi"
+        android:layout_width="match_parent"
+        android:layout_height="473dp"
+        android:layout_alignParentTop="true">
+
+    </FrameLayout>
+
+
+    <fragment
+        android:id="@+id/fragmentButton"
+        android:name="com.zero.Fragment.FragmentButton"
+        android:layout_width="match_parent"
+        android:layout_height="85dp" />
+
+
+
+
+
+</LinearLayout>
+
+

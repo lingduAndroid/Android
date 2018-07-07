@@ -1,0 +1,125 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijing">
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageButton
+        android:id="@+id/fanhuiid"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+
+        android:background="@color/white"
+        android:src="@drawable/fanhui" />
+
+        <TextView
+            android:id="@+id/titleid"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/app_name49"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/white"
+        android:layout_below="@id/titleid"
+        android:id="@+id/view" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name63"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/yueid"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_weight="4"
+        android:text="@string/app_name64"
+        android:textColor="@color/Red"
+        android:textSize="40sp" />
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="@color/Blue"
+            android:textSize="30sp"
+            android:text="@string/app_name70"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000"/>
+
+    <Button
+        android:id="@+id/tixianid"
+        android:layout_width="match_parent"
+        android:background="@color/Blue"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/app_name65"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0sp"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name66"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="0sp"
+            android:textSize="20sp"
+            android:background="@color/white"
+            android:text="@string/app_name67"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>

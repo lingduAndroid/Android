@@ -1,0 +1,133 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+<Button
+        android:id="@+id/fanhui"
+        android:layout_width="61dp"
+        android:layout_height="47dp"
+        android:text=" 返回"
+         />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="0sp"
+        android:layout_weight="1"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text=" 登录"
+        android:textSize="90px"
+        />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30sp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:text=" 账号"
+            android:textSize="50px" />
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/edit_count"
+        android:layout_width="263dp"
+        android:layout_height="52dp"
+        android:hint="请输入账号"
+        android:inputType="number"
+        android:maxLength="11"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10sp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:text=" 密码"
+        android:textSize="50px"/>
+
+
+            <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="0sp"
+        android:layout_height="42dp"
+        android:hint="请输入密码"
+                android:layout_weight="1"
+        android:inputType="numberPassword"
+        android:maxLength="16"/>
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15sp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/remember_pass"
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:text="@string/app_name71"/>
+
+        <View
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/queding"
+        android:layout_width="100sp"
+        android:layout_height="45dp"
+
+        android:text="登录"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/forgetId"
+        android:layout_width="78dp"
+        android:layout_height="31dp"
+        android:textColor="@color/Blue"
+        android:text="@string/app_name72"
+        android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

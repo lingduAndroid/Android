@@ -1,0 +1,138 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:gravity="center"
+        android:text="@string/app_name56"
+        android:textSize="30sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:src="@drawable/wode"/>
+
+
+        <EditText
+            android:layout_marginLeft="30sp"
+            android:id="@+id/phoneid"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+        <Button
+            android:id="@+id/threeid"
+            android:layout_width="0sp"
+            android:text="@string/app_name52"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/sixid"
+            android:layout_width="0sp"
+            android:text="@string/app_name53"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/twelveid"
+            android:layout_width="0sp"
+            android:text="@string/app_name54"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/zidingyiid"
+            android:layout_width="0sp"
+            android:hint="@string/app_name55"
+            android:background="@color/white"
+            android:inputType="number"
+            android:textSize="14sp"
+            android:maxLength="2"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/jiageid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:layout_marginLeft="20sp"
+            android:text="@string/app_name57"
+            android:textColor="@color/Black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/app_name58"
+            android:textSize="20sp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/lijikaitongid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:text="@string/app_name59"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/app_name60"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/Red"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/app_name61"
+            android:layout_marginLeft="135sp"
+            android:textColor="@color/Red"
+            android:gravity="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

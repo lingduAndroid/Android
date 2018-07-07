@@ -1,0 +1,198 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50sp">
+    android:orientation="horizontal"
+
+    <ImageButton
+        android:id="@+id/fanhuiid"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginLeft="10sp"
+        android:src="@drawable/fanhui" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="68sp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="@string/app_name49" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/vipbeijing">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/vip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name47"
+            android:textColor="@color/Red"
+            android:textSize="50sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:gravity="center"
+                android:text="@string/app_name48"
+
+                android:textColor="@color/Red"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/kaitongid"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="@string/app_name50"
+        android:background="@color/Red"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:background="#9e9e9e"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/app_name51"
+    android:textStyle="bold"
+    android:textSize="30sp"/>
+
+
+    <Button
+        android:id="@+id/More_Quickly"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#ffffff"
+        android:text="@string/app_name73"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"
+        />
+
+
+
+    <Button
+        android:id="@+id/Rename_id"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#ffffff"
+
+        android:text="@string/app_name74"
+        android:textSize="25sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"
+        />
+
+
+
+    <Button
+        android:id="@+id/More_Rewards"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#ffffff"
+        android:text="@string/app_name75"
+        android:textSize="25sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"
+        />
+
+
+
+    <Button
+        android:id="@+id/Rank_Front"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#ffffff"
+        android:text="@string/app_name76"
+        android:textSize="25sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"
+        />
+
+    <Button
+        android:id="@+id/Name_Red"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#ffffff"
+        android:text="@string/app_name77"
+        android:textSize="25sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"
+        />
+
+    <Button
+        android:id="@+id/Special_Care"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#ffffff"
+        android:text="@string/app_name78"
+        android:textSize="25sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#9e9e9e"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name79"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.zero.Fragment.FragmentHuiyuan">
+
+<TextView
+        android:layout_width="107dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="476dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="New"
+        android:textSize="100px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="107dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="476dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="150dp"
+        android:autoLink=""
+        android:gravity="center"
+        android:text="最新"
+        android:textSize="80px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+    <TextView
+        android:layout_width="107dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="476dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:autoLink=""
+        android:gravity="center"
+        android:text="Hot"
+        android:textSize="100px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="107dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="476dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="150dp"
+        android:autoLink=""
+        android:gravity="center"
+        android:text="热门"
+        android:textSize="80px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/sousuo"
+        android:layout_width="386dp"
+        android:layout_height="44dp"
+
+        android:hint="搜索"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/sousuoid"
+        android:layout_width="41dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="324dp"
+        android:background="#ffffff"
+        android:src="@drawable/sousuo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+</android.support.constraint.ConstraintLayout>

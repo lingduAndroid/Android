@@ -1,0 +1,15 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      演绎秀是由英俊潇洒风流倜傥的李佳保独立完成的呕心沥血之作。\n
+     只有帅哥美女颜值高的人才能玩转。你，是吗？"
+        android:textSize="25dp"/>
+
+</LinearLayout>
+
